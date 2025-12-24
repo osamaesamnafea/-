@@ -1,0 +1,207 @@
+تمام، سأرتب لك الكود بشكل منسق وجاهز للنسخ مباشرة بحيث يكون مرتب وواضح، مع المحافظة على كل الوظائف:
+Copy code
+Html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter List</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            direction: rtl; 
+            text-align: right; 
+            padding: 20px; 
+        }
+        h1 { 
+            text-align: center; 
+        }
+        .name-row { 
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between; 
+            margin: 10px 0; 
+        }
+        .counter { 
+            font-size: 20px; 
+            margin: 0 10px; 
+        }
+        button { 
+            padding: 5px 10px; 
+            font-size: 16px; 
+        }
+    </style>
+</head>
+<body>
+
+<h1>عداد لكل اسم</h1>
+
+<!-- قائمة الأسماء -->
+<div class="name-row">
+    <span>أحمد السيد</span>
+    <button onclick="decrement('c0')">−</button>
+    <span id="c0" class="counter">0</span>
+    <button onclick="increment('c0')">+</button>
+</div>
+
+<div class="name-row">
+    <span>أحمد علي</span>
+    <button onclick="decrement('c1')">−</button>
+    <span id="c1" class="counter">0</span>
+    <button onclick="increment('c1')">+</button>
+</div>
+
+<div class="name-row">
+    <span>أسامة عصام</span>
+    <button onclick="decrement('c2')">−</button>
+    <span id="c2" class="counter">0</span>
+    <button onclick="increment('c2')">+</button>
+</div>
+
+<div class="name-row">
+    <span>إسراء عسل</span>
+    <button onclick="decrement('c3')">−</button>
+    <span id="c3" class="counter">0</span>
+    <button onclick="increment('c3')">+</button>
+</div>
+
+<div class="name-row">
+    <span>أسماء جلال</span>
+    <button onclick="decrement('c4')">−</button>
+    <span id="c4" class="counter">0</span>
+    <button onclick="increment('c4')">+</button>
+</div>
+
+<div class="name-row">
+    <span>إيمان جمال</span>
+    <button onclick="decrement('c5')">−</button>
+    <span id="c5" class="counter">0</span>
+    <button onclick="increment('c5')">+</button>
+</div>
+
+<div class="name-row">
+    <span>إيمان عبدالرحمن</span>
+    <button onclick="decrement('c6')">−</button>
+    <span id="c6" class="counter">0</span>
+    <button onclick="increment('c6')">+</button>
+</div>
+
+<div class="name-row">
+    <span>آية فاروق</span>
+    <button onclick="decrement('c7')">−</button>
+    <span id="c7" class="counter">0</span>
+    <button onclick="increment('c7')">+</button>
+</div>
+
+<div class="name-row">
+    <span>تسنيم فراج</span>
+    <button onclick="decrement('c8')">−</button>
+    <span id="c8" class="counter">0</span>
+    <button onclick="increment('c8')">+</button>
+</div>
+
+<div class="name-row">
+    <span>تقى فكري</span>
+    <button onclick="decrement('c9')">−</button>
+    <span id="c9" class="counter">0</span>
+    <button onclick="increment('c9')">+</button>
+</div>
+
+<div class="name-row">
+    <span>ريم عبدالموجود</span>
+    <button onclick="decrement('c10')">−</button>
+    <span id="c10" class="counter">0</span>
+    <button onclick="increment('c10')">+</button>
+</div>
+
+<div class="name-row">
+    <span>سارة محمد</span>
+    <button onclick="decrement('c11')">−</button>
+    <span id="c11" class="counter">0</span>
+    <button onclick="increment('c11')">+</button>
+</div>
+
+<div class="name-row">
+    <span>سارة يحي</span>
+    <button onclick="decrement('c12')">−</button>
+    <span id="c12" class="counter">0</span>
+    <button onclick="increment('c12')">+</button>
+</div>
+
+<div class="name-row">
+    <span>سلمى بليغ</span>
+    <button onclick="decrement('c13')">−</button>
+    <span id="c13" class="counter">0</span>
+    <button onclick="increment('c13')">+</button>
+</div>
+
+<div class="name-row">
+    <span>سما فيصل</span>
+    <button onclick="decrement('c14')">−</button>
+    <span id="c14" class="counter">0</span>
+    <button onclick="increment('c14')">+</button>
+</div>
+
+<div class="name-row">
+    <span>سما محمد</span>
+    <button onclick="decrement('c15')">−</button>
+    <span id="c15" class="counter">0</span>
+    <button onclick="increment('c15')">+</button>
+</div>
+
+<div class="name-row">
+    <span>سميرة مازن</span>
+    <button onclick="decrement('c16')">−</button>
+    <span id="c16" class="counter">0</span>
+    <button onclick="increment('c16')">+</button>
+</div>
+
+<div class="name-row">
+    <span>عمرو أيمن</span>
+    <button onclick="decrement('c17')">−</button>
+    <span id="c17" class="counter">0</span>
+    <button onclick="increment('c17')">+</button>
+</div>
+
+<div class="name-row">
+    <span>منى حامد</span>
+    <button onclick="decrement('c18')">−</button>
+    <span id="c18" class="counter">0</span>
+    <button onclick="increment('c18')">+</button>
+</div>
+
+<div class="name-row">
+    <span>منى هاني</span>
+    <button onclick="decrement('c19')">−</button>
+    <span id="c19" class="counter">0</span>
+    <button onclick="increment('c19')">+</button>
+</div>
+
+<div class="name-row">
+    <span>ندى تهامي</span>
+    <button onclick="decrement('c20')">−</button>
+    <span id="c20" class="counter">0</span>
+    <button onclick="increment('c20')">+</button>
+</div>
+
+<script>
+    function increment(id) {
+        const el = document.getElementById(id);
+        el.textContent = parseInt(el.textContent) + 1;
+    }
+
+    function decrement(id) {
+        const el = document.getElementById(id);
+        el.textContent = parseInt(el.textContent) - 1;
+    }
+</script>
+
+</body>
+</html>
+💡 الآن هذا الكود جاهز تمامًا للنسخ:
+انسخه بالكامل.
+افتح JotterPad أو أي محرر نصوص آخر.
+الصقه داخل مستند جديد.
+احفظه باسم: index.html ثم يمكنك فتحه في المتصفح أو رفعه على GitHub Pages.
+إذا أحببت، أستطيع أن أعطيك طريقة مختصرة لرفع هذا الملف على GitHub Pages مباشرة مع رابط جاهز للعرض.
+هل تريد أن أريك الطريقة؟
